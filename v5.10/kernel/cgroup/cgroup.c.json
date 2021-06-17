@@ -1,0 +1,12 @@
+{
+	"file": "kernel/cgroup/cgroup.c",
+	"version": "v0.1",
+	"linuxversion": "v5.10",
+	"notes": [{
+		"line": 6253,
+		"note": "__weak 修饰的函数，如果其他地方有同名的函数，就优先使用其他地方的同名函数。"
+	}, {
+		"line": 6261,
+		"note": "启动参数 cgroup_debug主要用于cgroup v2。"
+	}]
+}
