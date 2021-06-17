@@ -8,5 +8,11 @@
 	}, {
 		"line": 6261,
 		"note": "启动参数 cgroup_debug主要用于cgroup v2。"
+	}, {
+		"line": 6535,
+		"note": "在/sys/kernel/下创建cgroup目录，cgroup目录中包含只读的文件delegate和features。"
+	}, {
+		"line": 6565,
+		"note": "show_delegatable_files显示了cgroup的中delegate接口，这些接口从namespace内部是不可写的。 "
 	}]
 }
