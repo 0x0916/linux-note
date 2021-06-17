@@ -3,7 +3,7 @@
 	"version": "v0.1",
 	"linuxversion": "v5.10",
 	"notes": [{
-		"line": 7351,
+		"line": 7315,
 		"note": "返回memcg中可用的swap pages个数。如果系统上cgroup_memory_noswap为true时，或者使用mem cgroup v1时，直接返回系统上可用的swap pages。如果使用的是mem cgroup v2时，返回memcg中可用的swap pages个数。"
 	}, {
 		"line": 7328,
