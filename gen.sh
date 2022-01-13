@@ -16,8 +16,6 @@ then
 	exit
 fi
 
-
-
 file=${VERSION}/${FILE}.json
 
 if [ ! -f ${file} ]; then
