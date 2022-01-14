@@ -1,0 +1,11 @@
+{
+        "linuxversion": "v4.18-mt20211110.465", 
+        "version": "v0.1", 
+        "notes": [
+                {
+                        "note": "当写/proc/sys/kernel/watchdog_cpumask接口时，调用该函数", 
+                        "line": 769
+                }
+        ], 
+        "file": "v4.18-mt20211110.465/kernel/watchdog.c"
+}
