@@ -25,6 +25,10 @@
                 {
                         "note": "如果两次NMI时，hrtimer_interrupts的值没有变化，说明irq未能正常触发，即发生了hardlock", 
                         "line": 309
+                }, 
+                {
+                        "note": "在init/main.c中的函数kernel_init_freeable会调用此初始化函数", 
+                        "line": 742
                 }
         ], 
         "file": "v5.10/kernel/watchdog.c"
