@@ -29,6 +29,14 @@
                 {
                         "note": "在init/main.c中的函数kernel_init_freeable会调用此初始化函数", 
                         "line": 742
+                }, 
+                {
+                        "note": "/proc/sys/kernel/watchdog_cpumask的处理函数", 
+                        "line": 726
+                }, 
+                {
+                        "note": "更新hrtimer_interrupts计数", 
+                        "line": 352
                 }
         ], 
         "file": "v5.10/kernel/watchdog.c"
