@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo -e "\033[0;32muUpload  to GitHub...\033[0m"
+echo -e "\033[0;32mUpload  to GitHub...\033[0m"
 
 # Add changes to git.
 git add .
