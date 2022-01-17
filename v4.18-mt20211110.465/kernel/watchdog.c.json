@@ -53,6 +53,30 @@
                 {
                         "note": "查看touch_ts变量在最近20秒的时间内，有没有被创建的watchdog更新过，如果没有就是线程没有调度，说明[watchdog/x]未得到运行机会，意味着CPU被霸占，调度器没有办法进行调度，也就发生了softlockup", 
                         "line": 309
+                }, 
+                {
+                        "note": "在init/main.c中的函数kernel_init_freeable会调用此初始化函数", 
+                        "line": 776
+                }, 
+                {
+                        "note": "根据实际情况，更新变量watchdog_enabled的值", 
+                        "line": 592
+                }, 
+                {
+                        "note": "创建内核线程[watchdog/x]", 
+                        "line": 595
+                }, 
+                {
+                        "note": "lockup接口写入的配置与之前不同时，需要更新", 
+                        "line": 748
+                }, 
+                {
+                        "note": "lockup接口写入的配置与之前不同时，需要更新", 
+                        "line": 696
+                }, 
+                {
+                        "note": "当lockup配置变更时，会调用该函数，该函数会调用lockup_detector_reconfigure，来重新配置lockup_detector", 
+                        "line": 658
                 }
         ], 
         "file": "v4.18-mt20211110.465/kernel/watchdog.c"
